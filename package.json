@@ -1,0 +1,33 @@
+{
+  "name": "@geekcornernpm/jimp-plugins",
+  "type": "module",
+  "productName": "jimp-plugins",
+  "version": "1.4.6",
+  "description": "Jimp plugins for Minecraft Pack Converter",
+  "keywords": [
+    "jimp",
+    "plugins"
+  ],
+  "author": "ozelot379",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozelot379/jimp-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozelot379/jimp-plugins/issues"
+  },
+  "homepage": "https://github.com/ozelot379/jimp-plugins#readme",
+  "dependencies": {
+    "jimp": "0.9.8",
+    "tga": "1.0.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "main": "src/index.mjs",
+  "bin": {
+    "img_to_svg": "bin/img_to_svg.mjs"
+  }
+}
